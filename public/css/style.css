@@ -1,0 +1,5 @@
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.btn-arrow:hover{
+    background-color : rgba(27,72,129,.85) !important;
+}
