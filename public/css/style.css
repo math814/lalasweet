@@ -1,5 +1,17 @@
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+/** { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }*/
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 .btn-arrow:hover{
     background-color : rgba(27,72,129,.85) !important;
+}
+
+.bold{
+    font-weight:900 !important;
+}
+
+.pr_img{
+    max-width:200px;
+    width:80%;
 }

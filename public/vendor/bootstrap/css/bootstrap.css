@@ -122,7 +122,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #1b4881;
+  color: #33508D;
   text-align: left;
   background-color: #fff;
 }
@@ -601,7 +601,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
   color: #fff;
-  background-color: #1b4881;
+  background-color: #33508D;
   border-radius: 0.2rem;
 }
 
@@ -616,7 +616,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  color: #1b4881;
+  color: #33508D;
 }
 
 pre code {
@@ -1748,7 +1748,7 @@ pre code {
 
 .table .thead-dark th {
   color: #fff;
-  background-color: #1b4881;
+  background-color: #33508D;
   border-color: #32383e;
 }
 
@@ -1760,7 +1760,7 @@ pre code {
 
 .table-dark {
   color: #fff;
-  background-color: #1b4881;
+  background-color: #33508D;
 }
 
 .table-dark th,
@@ -2726,7 +2726,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-light:hover {
-  color: #1b4881;
+  color: #33508D;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -2742,7 +2742,7 @@ fieldset[disabled] a.btn {
 
 .btn-outline-light:not([disabled]):not(.disabled):active, .btn-outline-light:not([disabled]):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
-  color: #1b4881;
+  color: #33508D;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
@@ -2894,7 +2894,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #1b4881;
+  color: #33508D;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2938,7 +2938,7 @@ tbody.collapse.show {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #1b4881;
+  color: #33508D;
   text-align: inherit;
   white-space: nowrap;
   background: none;
@@ -4738,7 +4738,7 @@ tbody.collapse.show {
 }
 
 .list-group-item-action:active {
-  color: #1b4881;
+  color: #33508D;
   background-color: #e9ecef;
 }
 
@@ -5443,7 +5443,7 @@ button.close {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #1b4881;
+  color: #33508D;
 }
 
 .carousel {
