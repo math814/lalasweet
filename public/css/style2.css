@@ -1,16 +1,24 @@
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
-/*body, table, div, p{ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }*/
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);*/
+body, table, div, p{ font-family: ‘Spoqa Han Sans’, ‘Spoqa Han Sans JP’, ‘Sans-serif’; }
 /*font-weight는 100(thin), 400(normal), 700(bold)만 사용하세요.*/
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+/*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);*/
+/*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
+
 .bold{
     font-weight:900 !important;
 }
-.section-heading img{
-    height:3rem;
-}
+
 .navbar-light .navbar-toggler{
     border:none !important;
-    padding: .25rem .0rem !important;
 }
+.btn-arrow:hover{
+    background-color : rgba(27,72,129,.85) !important;
+}
+
 .bold{
     font-weight:900 !important;
 }
@@ -26,7 +34,7 @@
 }
 .mb-0{
     padding:5px 0px;
-    color: #242424 !important;
+    color: #242424;
 }
 .portfolio-box img{
     width:100%;
@@ -52,31 +60,17 @@
     font-size:0.8rem;
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link{
-    padding:0.1rem 0.7rem;
+    padding:0rem;
 }
+/*.nav-item{*/
+/*    width:90px;*/
+/*    width:100%;*/
+/*}*/
 .nav-item img{
     height:20px;
 }
-.title_mobile{
-    display:none;
-}
-#mainNav{
-    line-height:1 !important;
-}
-.btn-arrow:hover{
-    background-color:rgba(0,0,0,0.5);
-}
-.tit_pad_bot{
-    padding-bottom:3rem;
-}
-.service-box{
-    padding:0 1rem;
-}
-#portfolio{
-    padding:4rem 0 3rem 0 !important;
-}
 
-/* PC 화면*/
+/*nav바 아래로 내려올 때*/
 @media (min-width: 992px){
     .nav_bk, .nav_bl{
         display:none;
@@ -87,20 +81,20 @@
     .navbar-shrink .nav_wh{
         display:none;
     }
-    .nav-link:hover .nav_wh, .nav-link:hover .nav_bk{
-        display:none;
-    }
     .nav-link:hover .nav_bl{
         display:block;
     }
-    .logo_bl,.navbar-shrink .logo_wh{
+    .nav-link:hover .nav_wh, .nav-link:hover .nav_bk{
         display:none;
     }
     .navbar-shrink .logo_bl{
         display:block;
     }
+    .logo_bl,.navbar-shrink .logo_wh{
+        display:none;
+    }
 }
-/* 모바일 화면*/
+
 @media (max-width: 992px){
     .logo_bl{
         display:block;
@@ -118,33 +112,6 @@
         display:block;
     }
     .nav-item{
-        margin: 0.9rem 0;
-    }
-    .title_mobile{
-        display:block;
-    }
-    .title_web{
-        display:none;
-    }
-    .tit_pad_bot{
-    padding-bottom:2rem;
-    }
-    .header_box{
-    margin-top:3rem !important;
-    }
-    
-    header.masthead{
-    padding-top: 8rem;
-    padding-bottom: calc(6rem - 56px);   
-    }
-    #portfolio, #contact{
-     padding-top:2.5rem 0 2rem 0 !important;   
-    }
-    #contact .tit_pad_bot{
-        padding-bottom:2.5rem !important;
-    }
-    #contact .phone{
-        margin-bottom:0;
-    }
+        margin: 1rem 0;
 }
-
+}
