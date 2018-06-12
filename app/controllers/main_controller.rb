@@ -1,4 +1,4 @@
 class MainController < ApplicationController
-  def main
-  end
+  # def main
+  # end
 end
